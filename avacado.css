@@ -1,0 +1,116 @@
+body{
+    background-image: linear-gradient(to bottom right, lightgray, rgb(214, 247, 214), rgb(250, 244, 244));
+    background-repeat: no-repeat;
+             background-attachment: fixed;
+             height: 90vh;
+ }
+ .leftpic{
+     margin-top: 20px;
+     margin-left: 20px;
+     box-shadow: 10px 10px 5px rgb(108, 145, 101)
+     
+ }
+ .header{
+     display: flex;
+ }
+ .head1{
+     background-image: linear-gradient(to bottom right,rgb(191, 250, 191),white);
+     margin-top: 20px;
+     height: 150px;
+     width: 680vh;
+     text-align: center;
+     padding-top: 80px;
+     box-shadow: 10px 10px 5px rgb(108, 145, 101)
+     
+     
+ }
+  div h2{
+     position: relative;
+     animation: mymove 5s infinite;
+ }
+ @keyframes mymove {
+     from {left: -70px;}
+     to {left: 10px;}
+   }
+ .head2{
+     background-image: linear-gradient(to bottom right,rgb(240, 253, 205),white);
+     margin-top: 20px;
+     height: 210px;
+     width: 450vh;
+     margin-right: 40px;
+     text-align: center;
+     padding-top: 20px ;
+     position: relative;
+     box-shadow: 10px 10px 5px rgb(108, 145, 101)
+ }
+ .grapes{
+     position: absolute;
+     top: 15px;
+     left: 110vh;
+ }
+ h2{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     color: rgb(31, 163, 31);
+     font-weight: 300;
+     font-size: larger;
+     margin-top: 21px;
+ }
+ .span1{
+     color: darkred;
+ }
+ .taste{
+     color: rgb(145, 115, 19);
+     padding: 0px 5px 1px 50px;
+     margin-top: -10px;
+ }
+ .content1{
+     display: flex;
+ 
+ }
+ .nav{
+     color: rgb(5, 75, 5);
+     font-size: x-large;
+     font-weight: 300;
+     border-style:groove;
+     border-left: none;
+     border-right: none;
+     margin-top: 30px;
+     margin-left: 40px;
+     background-image: linear-gradient(0deg,rgb(201, 228, 184), white);
+     padding-right: 90px;
+ }
+ .hom{
+     color: rgb(6, 156, 6); 
+     margin-top: 10px;
+     margin-left: 40px;
+     background-image: linear-gradient(0deg,rgb(201, 228, 184), white);
+     padding: 10px 10px 10px 70px;
+ }
+ .avacado{
+     color: rgb(38, 163, 38);
+     font-size: x-large;
+     font-weight: 200;
+     background-color: snow;
+     width: 190vh;
+     margin-left: 40px;
+     padding-left: 10vh;
+     padding-top: 5vh;
+     position: relative;
+ }
+ .content2{
+ position: absolute;
+ top:60vh ;
+ left: 60vh;
+ }
+ .content3{
+     /* display: flex; */
+     position: absolute;
+     top: 75vh;
+     left: 60vh;
+     
+ }
+ .photo{
+     left: 150vh;
+     position: absolute;
+     top:55vh;
+ }
